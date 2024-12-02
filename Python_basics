@@ -1,0 +1,128 @@
+Exercise: 1
+
+What is Syntax? Give some python syntax examples.
+Python syntax is the set of rules that define how to write and interpret Python programs. It's designed to be easy to read and understand, and is considered "executable pseudocode"
+
+Define Variables in programming
+A named container that holds data values and is used to keep track of values as code runs.
+
+What are the data types are available in python. Give a brief note about each
+data types
+Numeric – int, float, complex
+Sequence Type – string, list, tuple
+Mapping Type – dict
+Boolean – bool
+Set Type – set, frozenset
+Binary Types – bytes, bytearray, memoryview
+
+Print a value from variable
+Let’s take a variable name as ‘a’ and assign the value to it as 10
+=> a=10
+=> print(a) #printing the value stored in that variable ‘a’
+=> Output : 10
+
+Concatenation of 3 strings from variable
+Let’s take 3 variables named as ‘a’,’b’,’c’
+=> a=’Hello’
+=> b=”World’
+=> c=’!’
+=>print(a+b+c) #Concatenating the 3 variables
+=> Output : HelloWorld!
+
+Build calculator with 2 variables
+=> a=12
+=> b=10
+=> print(‘Add: ’,a+b)
+=> print(‘Sub: ’,a-b)
+=>print(‘Multiple: ’a*b)
+=> Output: 22 2 120
+Exercise: 2
+String manipulation
+
+“Python” - what is the index value of letter “t”?
+=> n= ‘Python’
+=> print(n.index(‘t’))
+=> Output: 2
+
+“Welcome‘ - Extract the 4th value from the given string.
+=> n= ‘Welcome’
+=> print(n[4])
+=> Output: o
+
+Calculate the length of this word “Python”.
+=> n= ‘Python’
+=> print(len(n))
+=> Output: 6
+
+“I’m doing great‘ -. Write a python code to convert this to upper case.
+=> n= “I’m doing great”
+=> print(n.upper())
+=> Output: I’M DOING GREAT
+
+Fill in the blanks - “_____ is my country” and “____ is learning ____”
+=> a='India'
+=> b='She'
+=> c='Python'
+=> print(f'{a} is my country and {b} is learning {c}')
+=> Output: India is my country and She is learning Python
+
+Check “learn” is exist in the given string - “I’m learning python”
+=> n=“I’m learning python”
+=> print(‘learn’ in n)
+=> Output: False
+
+Check “Python” is not present in the given string “i’m learning NodeJs”
+=> n=“i’m learning NodeJs”
+=> print(‘Python’ not in n)
+=> Output: True
+
+Exercise: 3
+IF & FOR Loops
+
+Get the character at position 1 of a string
+=> n= ‘Programming Language’
+=> print(n[1])
+=> Output: r
+
+Substring. Get the characters from position 2 to position 5 (not included)
+=> n= ‘Programming Language’
+=> print(n[2:5])
+=> Output: rog
+
+Remove whitespace from the beginning or at the end of a string
+=> n= ‘ Programming Language ’
+=> print(n.strip())
+=> Output: Programming Language
+
+Return the length of a string
+=> n= ‘Programming Language’
+=> print(len(n))
+=> Output: 22
+
+Convert a string to uppercase, lower case.
+=> n= ‘Programming Language’
+=> print(n.upper())
+=> print(n.lower())
+=> Output: PROGRAMMING LANGUAGE  programming language
+
+Replace a string with another string (Welcome Raja - Replace Raja with Roja)
+=> n= ‘Welcome Raja’
+=> print(n.replace(‘Raja’ , ‘Roja’))
+=> Output: Welcome Roja
+
+Split a string into different (‘hello,world’)
+=> n= ‘Programming Language ’
+=> print(n.split())
+=> Output: [‘Programming’ , ‘Language’]
+
+
+Python Operators - Addition and Subtraction and mul and division and modulus
+=> a=12
+=> b=10
+=> print (a+b)
+=> print (a-b)
+=> print (a*b)
+=> print (a/b)
+=> Output: 22 2 120 1.2
+
+
